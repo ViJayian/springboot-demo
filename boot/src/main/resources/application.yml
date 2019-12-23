@@ -1,0 +1,12 @@
+server:
+  port: 8200
+
+jwt:
+  secret: y4yhl9t
+#  2小时
+  expirationTime: 7200000
+
+spring:
+  http:
+    encoding:
+      charset: utf-8
